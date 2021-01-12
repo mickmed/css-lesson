@@ -1,0 +1,16 @@
+.header-wrapper {
+  display: flex;
+  position: fixed;
+  right: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background: rgb(3, 34, 3);
+  height: 8%;
+}
+header {
+  background: rgb(22, 20, 20);
+  color: rgb(214, 223, 213);
+}
+
+

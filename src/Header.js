@@ -1,9 +1,10 @@
 import React from 'react'
+// import './Header.css'
 
 const Header = () => {
     return(
-        <header>
-            <h1>Some Random Records</h1>
+        <header className="header-wrapper">
+            <h1>Twenty Records</h1>
         </header>
     )
 }
