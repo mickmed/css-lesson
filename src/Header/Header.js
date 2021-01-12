@@ -1,8 +1,8 @@
 import React from 'react'
-// import './Header.css'
+import './Header.css'
 
 const Header = () => {
-    return(
+    return (
         <header className="header-wrapper">
             <h1>Twenty Records</h1>
         </header>

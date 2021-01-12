@@ -2,18 +2,9 @@
 	padding: 10%;
 	width: 80%;
 }
-.dark{
-  background:black;
-  /* animation: spin .5s forwards; */
-}
-.light{
-  background:white;
-}
-
 .album-pic {
 	width: 100%;
 }
- 
 
 @media only screen and (min-width: 600px) {
 	.img-wrapper {
@@ -26,10 +17,4 @@
 		padding: 2.5%;
 		width: 20%;
 	}
-}
-
-
-@keyframes spin {
-  from{transform:rotate(0deg);}
-  to{transform:rotate(10deg);}
 }

@@ -2,7 +2,7 @@ const products = [
   {
     "name": "Barbara Lynn",
     "price": 5.99,
-    "description": "Gillian Welch",
+    "description": "Barbara Lynn",
     "pic": "barbaralynn.jpg"
   },
   {
