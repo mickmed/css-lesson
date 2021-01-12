@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
-import styled from 'styled-components'
-
+import React from 'react'
 
 const AlbumsList = (props) => {
-
 
     return (
         props.products.map((product, index) => {
@@ -15,8 +12,6 @@ const AlbumsList = (props) => {
             </div>
         })
     )
-
-
 }
 
 export default AlbumsList
