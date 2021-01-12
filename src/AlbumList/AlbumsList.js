@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-// import './AlbumList.css'
+import './AlbumList.css'
 
 
 const AlbumsList = (props) => {
@@ -12,7 +12,7 @@ const AlbumsList = (props) => {
         setStyle(!style)
         setItemId(id)
     }
-
+    //this is the block for the styled component
     const AlbumBlock = styled.section`
         margin: 40px;
         border: 5px solid pink;
@@ -20,17 +20,14 @@ const AlbumsList = (props) => {
 
     return (
         props.products.map((product, index) => {
-            return <div
+            return <AlbumBlock //notice use of styled component tag here
                 key={index}
-                className={`img-wrapper ${itemId === index && style ? 'dark' : 'light'}`
-                }
+                className={`img-wrapper ${itemId === index && style ? 'dark' : 'light'}`}
                 onClick={() => setMode(index)}>
                 <img src={`./img/${product.pic}`} className='album-pic' />
-            </div>
+            </AlbumBlock>
         })
     )
-
-
 }
 
 export default AlbumsList

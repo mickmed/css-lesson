@@ -1,26 +1,21 @@
-import './App.css';
+import './App.css'
 import products from './Data'
-import Header from './Header'
-import AlbumsList from './AlbumsList'
+import Header from './Header/Header'
+import AlbumsList from './AlbumList/AlbumsList'
 
 
 function App() {
 
-
-  const style={
-    // backgroundColor:'green',
-  
-  }
   return (
     <div className="App">
       <Header />
-      <div className="container" style={style}>
+      <div className="container">
         <AlbumsList products={products} />
       </div>
     </div>
   );
 }
 
-export default App;
+export default App
 
 
