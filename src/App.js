@@ -1,16 +1,17 @@
 import './App.css';
 import products from './Data'
-import Header from './Header'
-import AlbumsList from './AlbumsList'
+import Header from './Header/Header'
+import AlbumsList from './AlbumList/AlbumsList'
 
 
 function App() {
 
-
+  //here we set an inline style using an object literal
   const style={
-    // backgroundColor:'green',
+    backgroundColor:'green'
   
   }
+
   return (
     <div className="App">
       <Header />
