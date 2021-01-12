@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import './AlbumList.css'
 
 const AlbumsList = (props) => {
